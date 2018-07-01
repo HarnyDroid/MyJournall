@@ -125,31 +125,6 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
 
-    //just refix the whole firebase and ignore my code. i was in a hurry
-
-//            private boolean checkEmail (String email){
-//                return Patterns.EMAIL_ADDRESS.matcher(email).matches();
-//            }
-//
-//    private boolean checkPassword (String password){
-//        return !TextUtils.isEmpty(password);
-//    }
-
-//    private boolean checkFields () {
-//        String email = emailEditText.getText().toString();
-//        String password = passwordEditText.getText().toString();
-//
-//        if (!checkEmail(email)) {
-//            emailEditText.setError("Check email");
-//            return false;
-//        }
-//        if (!checkPassword(password)) {
-//            passwordEditText.setError("Check password !!!");
-//            return false;
-//        }
-//        return true;
-//    }
-
 
     @Override
     public void onStart() {
